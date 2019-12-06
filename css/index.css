@@ -73,7 +73,7 @@ p {
     margin: 0 auto;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -213,3 +213,42 @@ footer nav a {
     padding-bottom: 20px;  
 }
 
+.middle-quad .about-quad-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.middle-quad .about-quad-container div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.middle-quad .about-quad-container div h3 {
+    padding-top: 3%;
+}
+
+.middle-quad .about-quad-container div button {
+	border: solid 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 35%;
+	margin-top: 20px;
+	line-height: 18px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.together .together-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 3% 5% 3%; 
+}
