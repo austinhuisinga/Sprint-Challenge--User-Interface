@@ -62,6 +62,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* End of reset */
+
 p {
     line-height: 1.4;
 }
@@ -69,6 +71,37 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.hov {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hov:hover {
+    animation-name: nav-anim;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-anim {
+    100% {
+        color: gray;
+    }
+}
+
+.head-img {
+    margin-bottom: 2%;
 }
 
 .top-content {
@@ -101,15 +134,54 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box-1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +215,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Start About.html */
+
+.top-content .about-text-container {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-quad .about-quad-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.middle-quad .about-quad-container div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.middle-quad .about-quad-container div h3 {
+    padding-top: 3%;
+}
+
+.middle-quad .about-quad-container div button {
+	border: solid 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 35%;
+	margin-top: 20px;
+	line-height: 18px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.together .together-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 3% 5% 3%; 
+}
+
+/* start contact.html */
+
+.contact-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+form {
+	margin-top: 1%;
+	padding-top: 1%;
+	border-top: 1px dashed black;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+form label {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+form button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    width: 50%;
+    
 }
