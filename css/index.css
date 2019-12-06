@@ -62,6 +62,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* End of reset */
+
 p {
     line-height: 1.4;
 }
@@ -69,6 +71,24 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.hov {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.head-img {
+    margin-bottom: 2%;
 }
 
 .top-content {
@@ -101,16 +121,56 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box-1 {
+    background-color: rgb(52, 140, 140);
+}
+
+.middle-content .boxes .box-2 {
+    background-color: rgb(244, 220, 4);
+}
+
+.middle-content .boxes .box-3 {
+    background-color: rgb(116, 164, 172);
+}
+
+.middle-content .boxes .box-4 {
+    background-color: rgb(244, 140, 92);
+}
+
+.middle-content .boxes .box-5 {
+    background-color: rgb(212, 36, 76);
+}
+
+.middle-content .boxes .box-6 {
+    background-color: rgb(60, 148, 28);
+}
+
+.middle-content .boxes .box-7 {
+    background-color: rgb(164, 52, 212);
+}
+
+.middle-content .boxes .box-8 {
+    background-color: rgb(244, 116, 188);
+}
+
+.middle-content .boxes .box-9 {
+    background-color: rgb(84, 4, 140);
+}
+
+.middle-content .boxes .box-10 {
+    background-color: rgb(84, 148, 252);
+}
+
 
 .bottom-content {
     display: flex;
