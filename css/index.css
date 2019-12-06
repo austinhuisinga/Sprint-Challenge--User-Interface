@@ -88,6 +88,18 @@ header nav {
     font-size: 14px;
 }
 
+.hov:hover {
+    animation-name: nav-anim;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-anim {
+    100% {
+        color: gray;
+    }
+}
+
 .head-img {
     margin-bottom: 2%;
 }
@@ -251,4 +263,33 @@ footer nav a {
     display: flex;
     flex-direction: column;
     padding: 3% 3% 5% 3%; 
+}
+
+/* start contact.html */
+
+.contact-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+form {
+	margin-top: 1%;
+	padding-top: 1%;
+	border-top: 1px dashed black;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+form label {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+form button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    width: 50%;
+    
 }
