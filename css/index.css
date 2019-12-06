@@ -79,6 +79,7 @@ nav {
     align-items: flex-end;
     margin-bottom: 5%;
     margin-right: 5%;
+    margin-top: 2%;
 }
 
 .hov {
@@ -132,45 +133,44 @@ nav {
 }
 
 .middle-content .boxes .box-1 {
-    background-color: rgb(52, 140, 140);
+    background-color: teal;
 }
 
 .middle-content .boxes .box-2 {
-    background-color: rgb(244, 220, 4);
+    background-color: gold;
 }
 
 .middle-content .boxes .box-3 {
-    background-color: rgb(116, 164, 172);
+    background-color: cadetblue;
 }
 
 .middle-content .boxes .box-4 {
-    background-color: rgb(244, 140, 92);
+    background-color: coral;
 }
 
 .middle-content .boxes .box-5 {
-    background-color: rgb(212, 36, 76);
+    background-color: crimson;
 }
 
 .middle-content .boxes .box-6 {
-    background-color: rgb(60, 148, 28);
+    background-color: forestgreen;
 }
 
 .middle-content .boxes .box-7 {
-    background-color: rgb(164, 52, 212);
+    background-color: darkorchid;
 }
 
 .middle-content .boxes .box-8 {
-    background-color: rgb(244, 116, 188);
+    background-color: hotpink;
 }
 
 .middle-content .boxes .box-9 {
-    background-color: rgb(84, 4, 140);
+    background-color: indigo;
 }
 
 .middle-content .boxes .box-10 {
-    background-color: rgb(84, 148, 252);
+    background-color: dodgerblue;
 }
-
 
 .bottom-content {
     display: flex;
@@ -204,3 +204,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Start About.html */
+
+.top-content .about-text-container {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
